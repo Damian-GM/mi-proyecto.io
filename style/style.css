@@ -1,0 +1,745 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nunito:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.2);
+    color: white;
+    position: absolute;
+}
+
+h1, h2, h3 {
+    font-family: 'Nunito', sans-serif;
+    color: #64dd17;
+    letter-spacing: 0.4rem;
+}
+
+h1 {
+    text-shadow: 0 0 0.5rem currentColor;
+}
+
+h2 {
+    font-weight: 300;
+    letter-spacing: 0.15rem;
+    text-align: right;
+    color: white;
+}
+
+h3 {
+    letter-spacing: 0.2rem;
+}
+
+nav ul{
+    display: flex;
+    margin-right: 50px;
+    gap: 60px;
+}
+
+nav ul li {
+    list-style: none;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.3rem;
+}
+
+nav ul li a {
+    position: relative;
+    text-decoration: none;
+    color: #64dd17;
+    padding: 5px 5px;
+    border-radius: 10px;
+    text-shadow: 0 0 0.3rem currentColor;
+    transition: all 0.3s;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.logo {
+    width: 50px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.div-header {
+    max-width: 80%;
+}
+
+.main {
+    min-height: 100vh;
+    width: 100%;
+    background: url(../assets/img/background.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-big {
+    width: 800px;
+    max-width: 100%;
+}
+
+.splash {
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.div-h2 {
+    max-width: 40%;
+    margin-top: 20px;
+}
+
+.index-divider {
+    background-color: black;
+    min-height: 60px;
+    border: none;
+}
+
+/* VIDEO */
+.video-section {
+    background-color: black;
+}
+
+.video-title {
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 0.6rem;
+    display: inline;
+}
+
+#journey {
+    background-color: white;
+    color: black;
+}
+
+.div-video-title {
+    padding: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.div-video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iframe-video {
+    margin-bottom: 30px;
+    max-width: 100%;
+    padding: 5px;
+}
+
+/* ABOUT */
+.about-section {
+    background-color: black;
+}
+
+.about-pic {
+    max-width: 300px;
+}
+
+.div-about-section {
+    padding: 100px 50px;
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.div-about-text {
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gif {
+    width: 180px;
+    margin-top: 10px;
+}
+
+.about-title, .about-text {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+.about-title {
+    font-size: 2.2rem;
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    color: #64dd17;
+    text-shadow: 0 0 1.5rem currentColor;
+}
+
+.about-text {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.12rem;
+    text-align: center;
+}
+
+/* CARDS */
+.cards-section {
+    background-color: white;
+}
+
+.div-cards-header {
+    margin-top: 70px;
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.div-cards-title {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    color: #181818;
+    font-size: 3rem;
+    text-align: center;
+    display: inline;
+}
+
+#wantTo {
+    background-color: black;
+    color: white;
+}
+
+hr {
+    width: 100px;
+    margin: 20px auto 0 auto;;
+}
+
+.p-card {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0 0 0.8rem;
+}
+
+.div__p-card {
+    background-color: rgb(5, 5, 5, 0.8);
+    width: 100%;
+}
+
+.div-cards{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    padding: 10px 20px 20px 20px;
+    margin: auto;
+}
+
+#musicDiv {
+    background: url(../assets/img/card1.png);
+}
+
+#toursDiv {
+    background: url(../assets/img/card2.png);
+}
+#classesDiv {
+    background: url(../assets/img/card3.png);
+}
+
+#bookingDiv {
+    background: url(../assets/img/card4.png);
+}
+
+.div-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 450px;
+    transition: all 0.25s;
+    margin: 20px;
+}
+
+.div-card:hover {
+    scale: 1.02;
+    opacity: 95%;
+    cursor: pointer;
+}
+
+
+/* FOOTER */
+footer {
+    height: 220px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer span {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+.div-footer-logos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-logos {
+    width: 50px;
+    opacity: 70%;
+    transition: 0.3s;
+}
+
+.footer-logos:hover {
+    opacity: 100%;
+}
+
+
+/* PAGES */
+.music-section, .tour-section, .education-section, .contact-section {
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.education-footer {
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 0.6rem;
+    display: inline;
+}
+
+.div-education-footer {
+    margin: 20px auto;
+}
+
+.music-section {
+    background: url(../assets/img/background2.png) center center fixed;
+}
+
+.tour-section {
+    background: url(../assets/img/background3.png) center center fixed;
+}
+
+.education-section {
+    background: url(../assets/img/background4.png) center center fixed;
+}
+
+.contact-section {
+    /* background-color: #181818; */
+    background: url(../assets/img/background.png) center center fixed;
+
+}
+
+.div-music-title, .div-tour-title {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.div-tour-title {
+    margin-bottom: 20px;
+}
+
+
+.music-title, .tour-title, .education-title, .contact-title {
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 0.6rem;
+    text-align: center;
+    display: inline;
+}
+
+#music, #shows, #my, #me, #here {
+    background-color: white;
+    color: black;
+}
+
+#here {
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#here:hover {
+    opacity: 0.8;
+}
+
+.div-music-section, .div-tour-section, .div-education-section, .div-contact-section {
+    width: 80vw;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    background-color: rgb(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-contact-section {
+    padding: 50px;
+}
+
+.div-contact-cards {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 5px;
+}
+
+.div-contact-title {
+    margin-bottom: 30px;
+}
+
+.contact-data {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin-left: 5px;
+}
+
+.mail-logo {
+    
+}
+
+.div-tour-section {
+    padding-bottom: 10px;
+}
+
+.div-music-cards {
+    display: grid;
+    row-gap: 50px;
+    column-gap: 80px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.music-card {
+    background-color: #202020;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.music-card-data {
+    flex-grow: 2;
+    max-width: 300px;
+}
+
+.music-card-img {
+    width: 300px;
+}
+
+.music-play-logo{
+    width: 45px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.track-name, .track-artist, .track-label {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    padding: 5px;
+    margin-left: 5px;
+    letter-spacing: 0.1rem;
+}
+
+.track-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.track-artist {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.track-label{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.music-card-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    line-height: 0;
+}
+
+.card-footer {
+    width: 300px;
+}
+
+.tour-list-divider {
+    width: 75vw;
+    height: 3px;
+    background-color: white;
+    margin: 5px auto;
+}
+
+.div-tour-list {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin: 8px 0;
+}
+
+.first-div-tour-list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8rem;
+}
+
+.first-tour-list {
+    width: 13rem;
+}
+
+.second-div-tour-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+.tour-date, .tour-location, .tour-country, .tour-tickets, .contact-data p, .div-span-logo span {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+}
+
+.tour-date, .tour-country, .tour-tickets, .contact-data span {
+    font-weight: 700;
+}
+
+.tour-location, .contact-data p {
+    font-weight: 300;
+}
+
+.tour-country {
+    text-align: end;
+}
+
+.tour-tickets {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.tour-tickets:hover {
+    opacity: 0.8;
+}
+
+.div-education-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+.div-education-title {
+    margin: 30px 0;
+}
+
+.education-card {
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: rgba(32, 32, 32, 0.6);
+    width: 600px;
+}
+
+.education-card-bio {
+    padding: 8px;
+}
+
+.education-card-img {
+    padding: 10px;
+    width: 200px;
+    align-self: center;
+}
+
+.artist-name, .artist-labels, .artist-bio {
+    font-family: 'Nunito', sans-serif;
+    margin-left: 5px;
+}
+
+.artist-labels, .artist-bio {
+    color: white;
+
+}
+
+.artist-bio {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.artist-name {
+    color: #64dd17;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.contact-photo {
+    max-width: 800px;
+}
+
+.mail-logo {
+    width: 25px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.div-span-logo {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.div-mini-logos {
+    margin: 20px auto 0 auto;
+}
+
+.mini-logo {
+    max-width: 150px;
+}
+
+@media (max-width: 1365px) {
+    .div-cards {
+        flex-wrap: wrap;
+    }
+    .div-about-text {
+        max-width: 100%;
+    }
+    .div-music-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 1200px) {
+    .div-cards {
+        gap: 75px;
+    }
+    .div-h2 {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 992px) {
+    nav ul{
+        display: none;
+    }
+    .main {
+        min-height: 60vh;
+        background-attachment: local;
+    }
+    .video-title {
+        font-size: 2rem;
+    }
+    .div-video-title {
+        padding: 30px;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .div-about-section {
+        padding: 50px 20px;
+    }
+    footer {
+        height: 120px;
+    }
+    .div-music-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .div-h2 h2 {
+        font-size: 1rem;
+    }
+    .div-about-section {
+        max-width: 100%;
+    }
+    .main h1 {
+        font-size: 1rem;
+    }
+    .index-divider {
+        min-height: 10px;
+    }
+    .div-card {
+        margin: 0;
+    }
+    .div-cards {
+        gap: 30px;
+    }
+    .video-title {
+        font-size: 1.6rem;
+    }
+    .div-cards-title {
+        font-size: 2.2rem;
+    }
+    .music-title {
+        font-size: 2rem;
+    }
+    .div-music-section {
+        width: 90%;
+    }
+}
+
+@media (max-width: 414px) {
+    .main {
+        min-height: 50vh;
+    }
+}
