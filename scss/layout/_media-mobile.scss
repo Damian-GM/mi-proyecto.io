@@ -1,0 +1,47 @@
+@media (max-width: 576px) {
+    .div-h2 h2 {
+        font-size: 0.85rem;
+    }
+    .div-about-section {
+        max-width: 100%;
+    }
+    .main h1 {
+        font-size: 1rem;
+    }
+    .index-divider {
+        min-height: 10px;
+    }
+    .div-card {
+        margin: 0;
+    }
+    .div-cards {
+        gap: 30px;
+    }
+    .video-title {
+        font-size: 1.6rem;
+    }
+    .div-cards-title {
+        font-size: 2.2rem;
+    }
+    .music-title {
+        font-size: 2rem;
+    }
+    .div-music-section {
+        width: 90%;
+    }
+    .about-pic {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 414px) {
+    .main {
+        min-height: 50vh;
+    }
+    .about-text {
+        font-size: 0.75rem;
+    }
+    .nav-mobile a li {
+        font-size: 1rem;
+    }
+}

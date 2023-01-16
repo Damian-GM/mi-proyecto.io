@@ -1,0 +1,26 @@
+footer {
+    height: 220px;
+    background: $color-black;
+    div{
+        gap: 10px;
+        a{
+            img{
+                width: 50px;
+                opacity: 70%;
+                transition: 0.3s;
+                &:hover{
+                    opacity: 100%;
+                }
+            }
+        }
+        @include flex (center, normal, row)
+    }
+    span{
+        color: $color-white;
+        font-family: $font-primary;
+        text-align: center;
+        font-size: 15px;
+        padding: 0 15px;
+    }
+    @include flex (space-evenly, normal, column)
+}

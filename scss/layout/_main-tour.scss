@@ -1,0 +1,88 @@
+.tour-section{
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background: url(../assets/img/background3.png) center center fixed;
+    .div-tour-section {
+        width: 80vw;
+        margin-top: 100px;
+        margin-bottom: 40px;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding-bottom: 10px;
+        .div-tour-title {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            text-align: center;
+            .tour-title {
+                color: $color-white;
+                font-size: 3rem;
+                letter-spacing: 0.6rem;
+                text-align: center;
+                display: inline;
+            }
+        }
+        hr{
+            width: 75vw;
+            height: 3px;
+            background-color: white;
+            margin: 5px auto;
+        }
+        .div-tour-list{
+            width: 70vw;
+            margin: 8px 0;
+            .first-div-tour-list{
+                gap: 8rem;
+                .first-tour-list{
+                    width: 13rem;
+                    .tour-date{
+                        color: $color-white;
+                        font-family: $font-primary;
+                        font-size: 1.2rem;
+                        font-weight: 700;
+                    }
+                }
+                .second-tour-list{
+                    .tour-location{
+                        color: $color-white;
+                        font-family: $font-primary;
+                        font-size: 1.2rem;
+                        font-weight: 300;
+                    }
+                }
+                @include flex (flex-start, normal, row)
+            }
+            .second-div-tour-list{
+                gap: 2rem;
+                div{
+                    .tour-country{
+                        color: $color-white;
+                        font-family: $font-primary;
+                        font-size: 1.2rem;
+                        text-align: end;
+                        font-weight: 700;
+                    }
+                }
+                div{
+                    .tour-tickets{
+                        color: $color-white;
+                        font-family: $font-primary;
+                        font-size: 1.2rem;
+                        font-weight: 700;
+                        background-color: $color-white;
+                        color: $color-black;
+                        cursor: pointer;
+                        transition: all 0.2s ease;
+                        padding: 0 5px;
+                        &:hover{
+                            opacity: 0.8;
+                        }
+                    }
+                }
+                @include flex (flex-end, normal, row)
+            }
+            @include flex (space-between, normal, row)
+        }
+        @include flex (center, center, column)
+    }
+    @include flex (center, center, column)
+}

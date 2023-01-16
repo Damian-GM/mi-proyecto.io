@@ -1,0 +1,26 @@
+h1, h2, h3, h4 {
+    font-family: $font-primary;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    width: 100px;
+    margin: 20px auto 0 auto;;
+}
+
+#music, #shows, #my, #me, #here, #journey {
+    background-color: $color-white;
+    color: $color-black;
+}
+
+#here {
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#here:hover {
+    opacity: 0.8;
+}
