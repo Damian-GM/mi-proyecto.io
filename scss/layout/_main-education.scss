@@ -7,9 +7,10 @@
         width: 80vw;
         margin-top: 100px;
         margin-bottom: 40px;
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(0, 0, 0, 0.8);
         .div-education-title{
             margin: 30px 0;
+            padding: 0 7px;
             .education-title{
                 color: $color-white;
                 font-size: 3rem;
@@ -21,8 +22,10 @@
         .div-education-cards{
             flex-wrap: wrap;
             row-gap: 40px;
+            max-width: 90%;
             .education-card{
-                background-color: rgba(32, 32, 32, 0.6);
+                background-color: rgba(20, 20, 20, 1);
+                // border: 2px solid white;
                 width: 600px;
                 .education-card-img{
                     padding: 10px;
@@ -57,11 +60,13 @@
         }
         .div-education-footer{
             margin: 20px auto;
+            padding: 0 7px;
             .education-footer{
                 color: $color-white;
                 font-size: 1.5rem;
                 letter-spacing: 0.6rem;
                 display: inline;
+                text-align: center;
             }
         }
         @include flex (center, center, column);

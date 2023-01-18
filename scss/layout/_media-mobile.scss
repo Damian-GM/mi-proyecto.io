@@ -1,36 +1,103 @@
 @media (max-width: 576px) {
-    .div-h2 h2 {
+    .main .div-h2 h2 {
         font-size: 0.85rem;
-    }
-    .div-about-section {
-        max-width: 100%;
     }
     .main h1 {
         font-size: 1rem;
     }
+    .main .splash {
+        margin-top: 0px;
+    }
     .index-divider {
         min-height: 10px;
     }
-    .div-card {
+    .about-section .div-about-section {
+        max-width: 100%;
+    }
+    .cards-section .div-cards a .div-card {
         margin: 0;
     }
-    .div-cards {
+    .cards-section .div-cards {
         gap: 30px;
     }
-    .video-title {
+    .education-section .div-education-section .div-education-cards .education-card .education-card-bio .artist-name {
         font-size: 1.6rem;
     }
-    .div-cards-title {
-        font-size: 2.2rem;
+    .cards-section .div-cards-header .div-cards-title {
+        font-size: 2.6rem;
     }
-    .music-title {
+    .music-section .div-music-section .div-music-title .music-title {
         font-size: 2rem;
     }
-    .div-music-section {
+    .tour-section .div-tour-section .div-tour-title .tour-title {
+        font-size: 2rem;
+    }
+    .education-section .div-education-section .div-education-title .education-title {
+        font-size: 2rem;
+    }
+    .contact-section .div-contact-section .div-contact-title .contact-title {
+        font-size: 2rem;
+    }
+    .music-section .div-music-section {
         width: 90%;
     }
-    .about-pic {
+    .education-section .div-education-section {
+        width: 90%;
+    }
+    .contact-section .div-contact-section {
+        width: 90%;
+    }
+    .about-section .div-about-section .div-about-pic .about-pic {
         max-width: 250px;
+    }
+    .tour-section .div-tour-section .div-tour-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    .tour-section .div-tour-section .div-tour-list .first-div-tour-list .first-tour-list .tour-date {
+        text-align: center;
+    }
+    .tour-section .div-tour-section .div-tour-list .first-div-tour-list .second-tour-list .tour-location {
+        text-align: center;
+    }
+    .tour-section .div-tour-section .div-tour-list .second-div-tour-list .div-tour-tickets {
+        text-align: center;
+    }
+    .tour-section .div-tour-section .div-tour-list .first-div-tour-list .first-tour-list {
+        width: auto;
+    }
+    .video-section .div-video-section .div-video-title {
+        padding: 20px;
+    }
+    .education-section .div-education-section .div-education-footer .education-footer {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .contact-section .div-contact-section .div-contact-cards .contact-data p {
+        text-align: center;
+    }
+    .contact-section .div-contact-section .div-contact-cards .contact-data .div-span-logo span {
+        text-align: center;
+    }
+    .contact-section .div-contact-section .div-contact-cards .contact-data .div-span-logo {
+        margin: auto;
+    }
+    .contact-section .div-contact-section .div-contact-cards .contact-data .div-mini-logos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-section .div-contact-section {
+        padding: 20px;
+    }
+    .contact-section .div-contact-section .div-contact-title {
+        margin-top: 20px;
+    }
+    .video-section .div-video-section .div-video-title .video-title {
+        font-size: 1.6rem;
+    }
+    .cards-section .div-cards-header {
+        margin-top: 20px;
     }
 }
 
@@ -38,10 +105,25 @@
     .main {
         min-height: 50vh;
     }
-    .about-text {
+    .main .div-h2 {
+        margin-top: 0px;
+    }
+    .about-section .div-about-section .div-about-text .about-text {
         font-size: 0.75rem;
     }
     .nav-mobile a li {
         font-size: 1rem;
+    }
+    .education-section .div-education-section .div-education-title .education-title {
+        display: block;
+    }
+    .education-section .div-education-section .div-education-footer {
+        width: 85%;
+    }
+    .contact-section .div-contact-section .div-contact-cards .contact-data p{
+        font-size: 0.75rem;
+    }
+    .contact-section .div-contact-section {
+        padding: 6px;
     }
 }

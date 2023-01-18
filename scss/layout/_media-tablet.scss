@@ -1,70 +1,131 @@
+@media (max-width: 1780px) {
+    .contact-section .div-contact-section .div-contact-cards{
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 1365px) {
-    .div-cards {
+    .cards-section .div-cards {
         flex-wrap: wrap;
     }
-    .div-about-text {
+    .about-section .div-about-section .div-about-text {
         max-width: 100%;
     }
-    .div-music-cards {
+    .about-section .div-about-section .div-about-text .div-video-title {
+        margin-top: 20px;
+    }
+    .music-section .div-music-section .div-music-cards {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .tour-section .div-tour-section .div-tour-list .first-div-tour-list  {
+        flex-direction: column;
+    }
+    .tour-section .div-tour-section .div-tour-list .second-div-tour-list{
+        flex-direction: column;
+        gap: 0px;
     }
 }
 
 @media (max-width: 1200px) {
-    .div-cards {
+    .cards-section .div-cards {
         gap: 75px;
     }
-    .div-h2 {
+    .main .div-h2 {
         max-width: 70%;
+    }
+    .contact-section .div-contact-section .div-contact-cards .contact-card .contact-photo {
+        max-width: 100%;
     }
 }
 
 @media (max-width: 992px) {
-    nav ul{
-        display: none;
-    }
     .main {
-        min-height: 60vh;
+        min-height: 60vh;  
         background-attachment: local;
     }
-    .video-title {
+    .video-section .div-video-section .div-video-title .video-title {
         font-size: 2rem;
     }
-    .div-video-title {
-        padding: 30px;
+    .video-section .div-video-section .div-video-title {
         margin-top: 0px;
         text-align: center;
     }
-    .div-about-section {
+    .about-section .div-about-section {
         padding: 50px 20px;
     }
     footer {
         height: 120px;
     }
-    .div-music-cards {
+    .music-section .div-music-section .div-music-cards {
         grid-template-columns: repeat(1, 1fr);
     }
-    .splash {
+    .main .splash {
         max-width: 94%;
     }
-    .main h1 {
+    .main .splash h1 {
         font-size: 1.2rem;
     }
-    .div-video {
-        width: 100%;
-    }
-    .logo {
+    header div a .logo {
         margin-left: 3px;
     }
-    header {
-        position: fixed;
-        background-color: black;
-        z-index: 1;
+    .contact-section .div-contact-section .div-contact-cards .contact-data p{
+        font-size: 1rem;
+    }
+    .contact-section .div-contact-section .div-contact-cards .contact-data .div-span-logo span {
+        font-size: 1rem;
+    }
+    .video-section .div-video-section .div-video {
+        width: 92%;
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 769px) {
     .hambu {
         display: none;
     }
 }
+
+@media (max-width: 768px){
+    header nav ul{
+        display: none;
+    }
+    header {
+        position: fixed;
+        z-index: 1;
+        height: 45px;
+    }
+    .education-section .div-education-section .div-education-cards .education-card {
+        flex-direction: column;
+        max-width: 400px;
+    }
+    .education-section .div-education-section .div-education-footer .education-footer {
+        display: block;
+    }
+    .education-section .div-education-section .div-education-cards .education-card .education-card-bio .artist-name {
+        text-align: center;
+    }
+    .education-section .div-education-section .div-education-cards .education-card .education-card-bio .artist-labels{
+        text-align: center;
+    }
+    .education-section .div-education-section .div-education-cards .education-card .education-card-bio .artist-bio {
+        text-align: center;
+    }
+    .cards-section .div-cards {
+        gap: 0px;
+    }
+    .contact-section .div-contact-section .div-contact-title .contact-title {
+        display: block;
+    }
+    .music-section .div-music-section .div-music-title .music-title {
+        display: block;
+    }
+    .tour-section .div-tour-section .div-tour-title .tour-title {
+        display: block;
+    }
+    .education-section .div-education-section .div-education-title .education-title {
+        display: block;
+    }
+    .about-section .div-about-section {
+        max-width: 85%;
+    }
+} 
