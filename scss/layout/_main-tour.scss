@@ -4,14 +4,13 @@
     background-size: cover;
     background: url(../assets/img/background3.png) center center fixed;
     .div-tour-section {
-        width: 80vw;
-        margin-top: 100px;
+        width: 100%;
+        margin-top: 70px;
         margin-bottom: 40px;
-        background-color: rgba(0, 0, 0, 0.8);
         padding-bottom: 10px;
         .div-tour-title {
             margin-top: 40px;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             text-align: center;
             padding: 0 7px;
             .tour-title {
@@ -23,13 +22,13 @@
             }
         }
         hr{
-            width: 75vw;
+            width: 80vw;
             height: 3px;
             background-color: white;
             margin: 5px auto;
         }
         .div-tour-list{
-            width: 70vw;
+            width: 80vw;
             margin: 8px 0;
             .first-div-tour-list{
                 // gap: 8rem;
@@ -66,11 +65,10 @@
                 .div-tour-tickets{
                     text-align: right;
                     .tour-tickets{
-                        color: $color-white;
                         font-family: $font-primary;
                         font-size: 1.2rem;
                         font-weight: 700;
-                        background-color: $color-white;
+                        background-color: $color-primary;
                         color: $color-black;
                         cursor: pointer;
                         transition: all 0.2s ease;
@@ -88,5 +86,5 @@
         }
         @include flex (center, center, column)
     }
-    @include flex (center, center, column)
+    @include flex (flex-start, center, column)
 }

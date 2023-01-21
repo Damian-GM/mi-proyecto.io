@@ -4,9 +4,13 @@
     }
 }
 
-@media (max-width: 1365px) {
+@media (max-width: 1366px) {
     .cards-section .div-cards {
         flex-wrap: wrap;
+    }
+    .about-section .div-about-section{
+        max-width: 80%;
+        flex-wrap: nowrap;
     }
     .about-section .div-about-section .div-about-text {
         max-width: 100%;
@@ -14,15 +18,24 @@
     .about-section .div-about-section .div-about-text .div-video-title {
         margin-top: 20px;
     }
-    .music-section .div-music-section .div-music-cards {
-        grid-template-columns: repeat(2, 1fr);
-    }
     .tour-section .div-tour-section .div-tour-list .first-div-tour-list  {
         flex-direction: column;
     }
     .tour-section .div-tour-section .div-tour-list .second-div-tour-list{
         flex-direction: column;
         gap: 0px;
+    }
+    .education-section .div-karmademy-section{
+        width: 97vw;
+    }
+    .education-section .div-karmademy-section .div-karmademy-title .karmademy-title{
+        display: block;
+    }
+}
+
+@media (max-width: 1332px){
+    .education-section .div-karmademy-section .div-karmademy-cards {
+        justify-content: center;
     }
 }
 
@@ -33,8 +46,20 @@
     .main .div-h2 {
         max-width: 70%;
     }
+    .about-section .div-about-section{
+        flex-wrap: wrap;
+    }
     .contact-section .div-contact-section .div-contact-cards .contact-card .contact-photo {
         max-width: 100%;
+    }
+    .education-section .div-karmademy-section .div-karmademy-cards {
+        justify-content: center;
+    }
+    .education-section .div-karmademy-section {
+        width: 96vw;
+    }
+    .music-section .div-music-section .div-music-cards {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -55,9 +80,6 @@
     }
     footer {
         height: 120px;
-    }
-    .music-section .div-music-section .div-music-cards {
-        grid-template-columns: repeat(1, 1fr);
     }
     .main .splash {
         max-width: 94%;
@@ -127,5 +149,8 @@
     }
     .about-section .div-about-section {
         max-width: 85%;
+    }
+    .music-section .div-music-section .div-music-cards {
+        grid-template-columns: repeat(1, 1fr);
     }
 } 

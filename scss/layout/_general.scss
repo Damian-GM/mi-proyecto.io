@@ -11,9 +11,14 @@ hr {
     margin: 20px auto 0 auto;;
 }
 
-#music, #shows, #my, #me, #here, #journey, #meBio {
-    background-color: $color-white;
+#music, #shows, #me, #here, #journey, #meBio, #karmademy {
+    background-color: $color-primary;
     color: $color-black;
+}
+
+#my {
+    background-color: $color-black;
+    color: $color-white;
 }
 
 #here {

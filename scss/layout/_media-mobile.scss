@@ -2,7 +2,7 @@
     .main .div-h2 h2 {
         font-size: 0.85rem;
     }
-    .main h1 {
+    .main .splash h1 {
         font-size: 1rem;
     }
     .main .splash {
@@ -41,9 +41,9 @@
     .music-section .div-music-section {
         width: 90%;
     }
-    .education-section .div-education-section {
-        width: 90%;
-    }
+    // .education-section .div-education-section {
+    //     width: 90%;
+    // }
     .contact-section .div-contact-section {
         width: 90%;
     }
@@ -99,6 +99,15 @@
     .cards-section .div-cards-header {
         margin-top: 20px;
     }
+    .education-section .div-education-section {
+        padding-bottom: 0px;
+    }
+    .education-section .div-karmademy-section .div-karmademy-title .karmademy-title {
+        font-size: 2rem;
+    }
+    .education-section .div-karmademy-section .div-karmademy-text .karmademy-text {
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 414px) {
@@ -109,7 +118,7 @@
         margin-top: 0px;
     }
     .about-section .div-about-section .div-about-text .about-text {
-        font-size: 0.75rem;
+        font-size: 0.85rem;
     }
     .nav-mobile a li {
         font-size: 1rem;
@@ -121,7 +130,7 @@
         width: 85%;
     }
     .contact-section .div-contact-section .div-contact-cards .contact-data p{
-        font-size: 0.75rem;
+        font-size: 0.85rem;
     }
     .contact-section .div-contact-section {
         padding: 6px;
