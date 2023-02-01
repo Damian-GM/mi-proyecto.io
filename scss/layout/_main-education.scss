@@ -36,8 +36,9 @@
                 width: 430px;
                 max-width: 430px;
                 padding: 5px;
-                min-height: 255px;
+                min-height: 240px;
                 .education-logo{
+                    width: auto;
                 }
                 .karmademy-title-description{
                     font-family: $font-primary;
@@ -45,6 +46,7 @@
                     font-size: 1.4rem;
                     font-weight: 700;
                     text-align: center;
+                    margin-top: 5px;
                     margin-bottom: 10px;
                     letter-spacing: 2px;
                 }

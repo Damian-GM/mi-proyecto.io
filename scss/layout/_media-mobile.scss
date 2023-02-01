@@ -3,7 +3,7 @@
         font-size: 0.85rem;
     }
     .main .splash h1 {
-        font-size: 1rem;
+        font-size: 0.85rem;
     }
     .main .splash {
         margin-top: 0px;
@@ -41,9 +41,6 @@
     .music-section .div-music-section {
         width: 90%;
     }
-    // .education-section .div-education-section {
-    //     width: 90%;
-    // }
     .contact-section .div-contact-section {
         width: 90%;
     }
@@ -73,6 +70,9 @@
     .education-section .div-education-section .div-education-footer .education-footer {
         font-size: 1rem;
         text-align: center;
+    }
+    .education-section .div-karmademy-section .div-karmademy-cards .karmademy-card {
+        min-height: auto;
     }
     .contact-section .div-contact-section .div-contact-cards .contact-data p {
         text-align: center;
@@ -108,11 +108,14 @@
     .education-section .div-karmademy-section .div-karmademy-text .karmademy-text {
         font-size: 1.2rem;
     }
+    .education-section .div-karmademy-section .div-karmademy-cards .karmademy-card .education-logo {
+        width: 80px;
+    }
 }
 
 @media (max-width: 414px) {
     .main {
-        min-height: 50vh;
+        min-height: 100vh;
     }
     .main .div-h2 {
         margin-top: 0px;
@@ -128,6 +131,9 @@
     }
     .education-section .div-education-section .div-education-footer {
         width: 85%;
+    }
+    .education-section .div-karmademy-section .div-karmademy-cards .karmademy-card {
+        width: 96%;
     }
     .contact-section .div-contact-section .div-contact-cards .contact-data p{
         font-size: 0.85rem;

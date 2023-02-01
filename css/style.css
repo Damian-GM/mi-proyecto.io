@@ -521,17 +521,20 @@ footer {
         width: 430px;
         max-width: 430px;
         padding: 5px;
-        min-height: 255px;
+        min-height: 240px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-direction: column; }
+        .education-section .div-karmademy-section .div-karmademy-cards .karmademy-card .education-logo {
+          width: auto; }
         .education-section .div-karmademy-section .div-karmademy-cards .karmademy-card .karmademy-title-description {
           font-family: "Nunito", sans-serif;
           color: #f0f0f0;
           font-size: 1.4rem;
           font-weight: 700;
           text-align: center;
+          margin-top: 5px;
           margin-bottom: 10px;
           letter-spacing: 2px; }
         .education-section .div-karmademy-section .div-karmademy-cards .karmademy-card .div-karmademy-description {
@@ -781,7 +784,7 @@ footer {
 
 @media (max-width: 992px) {
   .main {
-    min-height: 60vh;
+    min-height: 100vh;
     background-attachment: local; }
   .video-section .div-video-section .div-video-title .video-title {
     font-size: 2rem; }
@@ -846,7 +849,7 @@ footer {
   .main .div-h2 h2 {
     font-size: 0.85rem; }
   .main .splash h1 {
-    font-size: 1rem; }
+    font-size: 0.85rem; }
   .main .splash {
     margin-top: 0px; }
   .index-divider {
@@ -892,6 +895,8 @@ footer {
   .education-section .div-education-section .div-education-footer .education-footer {
     font-size: 1rem;
     text-align: center; }
+  .education-section .div-karmademy-section .div-karmademy-cards .karmademy-card {
+    min-height: auto; }
   .contact-section .div-contact-section .div-contact-cards .contact-data p {
     text-align: center; }
   .contact-section .div-contact-section .div-contact-cards .contact-data .div-span-logo span {
@@ -914,11 +919,13 @@ footer {
   .education-section .div-karmademy-section .div-karmademy-title .karmademy-title {
     font-size: 2rem; }
   .education-section .div-karmademy-section .div-karmademy-text .karmademy-text {
-    font-size: 1.2rem; } }
+    font-size: 1.2rem; }
+  .education-section .div-karmademy-section .div-karmademy-cards .karmademy-card .education-logo {
+    width: 80px; } }
 
 @media (max-width: 414px) {
   .main {
-    min-height: 50vh; }
+    min-height: 100vh; }
   .main .div-h2 {
     margin-top: 0px; }
   .about-section .div-about-section .div-about-text .about-text {
@@ -929,6 +936,8 @@ footer {
     display: block; }
   .education-section .div-education-section .div-education-footer {
     width: 85%; }
+  .education-section .div-karmademy-section .div-karmademy-cards .karmademy-card {
+    width: 96%; }
   .contact-section .div-contact-section .div-contact-cards .contact-data p {
     font-size: 0.85rem; }
   .contact-section .div-contact-section {
