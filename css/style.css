@@ -463,14 +463,10 @@ footer {
           justify-content: baseline;
           align-items: center;
           flex-direction: row; }
-          .contact-section .div-contact-section .div-contact-cards .contact-data .div-span-logo span {
+          .contact-section .div-contact-section .div-contact-cards .contact-data .div-span-logo p {
             color: #f0f0f0;
             font-family: "Nunito", sans-serif;
             font-size: 1.2rem; }
-          .contact-section .div-contact-section .div-contact-cards .contact-data .div-span-logo a img {
-            width: 25px;
-            margin-left: 5px;
-            cursor: pointer; }
         .contact-section .div-contact-section .div-contact-cards .contact-data .div-mini-logos {
           margin: 20px auto 0 auto; }
           .contact-section .div-contact-section .div-contact-cards .contact-data .div-mini-logos img {
@@ -743,8 +739,6 @@ footer {
     flex-direction: column; } }
 
 @media (max-width: 1366px) {
-  .cards-section .div-cards {
-    flex-wrap: wrap; }
   .about-section .div-about-section {
     max-width: 80%;
     flex-wrap: nowrap; }
@@ -763,6 +757,8 @@ footer {
     display: block; } }
 
 @media (max-width: 1332px) {
+  .cards-section .div-cards {
+    flex-wrap: wrap; }
   .education-section .div-karmademy-section .div-karmademy-cards {
     justify-content: center; } }
 
@@ -783,6 +779,8 @@ footer {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media (max-width: 992px) {
+  .cards-section .div-cards {
+    gap: 0px; }
   .main {
     min-height: 100vh;
     background-attachment: local; }
@@ -803,7 +801,7 @@ footer {
     margin-left: 3px; }
   .contact-section .div-contact-section .div-contact-cards .contact-data p {
     font-size: 1rem; }
-  .contact-section .div-contact-section .div-contact-cards .contact-data .div-span-logo span {
+  .contact-section .div-contact-section .div-contact-cards .contact-data .div-span-logo p {
     font-size: 1rem; }
   .video-section .div-video-section .div-video {
     width: 92%; } }
@@ -846,6 +844,8 @@ footer {
     grid-template-columns: repeat(1, 1fr); } }
 
 @media (max-width: 576px) {
+  .mail-logo {
+    display: none; }
   .main .div-h2 h2 {
     font-size: 0.85rem; }
   .main .splash h1 {
@@ -899,7 +899,7 @@ footer {
     min-height: auto; }
   .contact-section .div-contact-section .div-contact-cards .contact-data p {
     text-align: center; }
-  .contact-section .div-contact-section .div-contact-cards .contact-data .div-span-logo span {
+  .contact-section .div-contact-section .div-contact-cards .contact-data .div-span-logo p {
     text-align: center; }
   .contact-section .div-contact-section .div-contact-cards .contact-data .div-span-logo {
     margin: auto; }

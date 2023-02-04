@@ -39,17 +39,10 @@
                     font-weight: 300;
                 }
                 .div-span-logo{
-                    span{
+                    p{
                         color: $color-white;
                         font-family: $font-primary;
                         font-size: 1.2rem;
-                    }
-                    a{
-                        img{
-                            width: 25px;
-                            margin-left: 5px;
-                            cursor: pointer;
-                        }
                     }
                     @include flex (baseline, center, row)
                 }

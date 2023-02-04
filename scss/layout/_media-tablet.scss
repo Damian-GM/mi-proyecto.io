@@ -5,9 +5,6 @@
 }
 
 @media (max-width: 1366px) {
-    .cards-section .div-cards {
-        flex-wrap: wrap;
-    }
     .about-section .div-about-section{
         max-width: 80%;
         flex-wrap: nowrap;
@@ -34,6 +31,9 @@
 }
 
 @media (max-width: 1332px){
+    .cards-section .div-cards {
+        flex-wrap: wrap;
+    }
     .education-section .div-karmademy-section .div-karmademy-cards {
         justify-content: center;
     }
@@ -64,6 +64,9 @@
 }
 
 @media (max-width: 992px) {
+    .cards-section .div-cards {
+        gap: 0px;
+    }
     .main {
         min-height: 100vh;  
         background-attachment: local;
@@ -93,7 +96,7 @@
     .contact-section .div-contact-section .div-contact-cards .contact-data p{
         font-size: 1rem;
     }
-    .contact-section .div-contact-section .div-contact-cards .contact-data .div-span-logo span {
+    .contact-section .div-contact-section .div-contact-cards .contact-data .div-span-logo p {
         font-size: 1rem;
     }
     .video-section .div-video-section .div-video {
